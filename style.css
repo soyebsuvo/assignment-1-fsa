@@ -50,8 +50,7 @@
 
 #around{
     width: 75%;
-    margin: 70px auto;
-    
+    margin: 70px auto;    
 }
 .flower-card img{
     width: 160px;
@@ -78,7 +77,7 @@
 }
 .featured-flower-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* gap: 40px; */
     margin-top: 40px;
@@ -105,7 +104,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 30px 20px;
-    margin: 40px 35px;
+    margin: 40px 18px;
     /* width: 89%; */
 }
 .support-image{
@@ -120,4 +119,47 @@
 .same{
     text-align: center;
     padding: 30px 10px;
+}
+
+.hot-deal-image{
+    width: 200px;
+}
+.hot-deal-container{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 30px;
+}
+.hot-deal-title{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.colored{
+    color: #E55473;
+}
+.card-images{
+    width: 220px;
+}
+
+.latest-deal-section{
+    padding: 80px;
+    background-image: url("flower-asset/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 80px 0px;
+    text-align: center;
+}
+.form{
+    margin-top: 20px;
+}
+.form>input{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 50%;
+    font-size: 14px;
 }
