@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-container{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    padding: 40px 5px 0px 5px;
+}
+.banner-description{
+    width: 50%;
+    padding: 70px 0px 70px 140px;
+}
+.banner-picture{
+    width: 50%;
+    text-align: center;
+
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 900;
+}
+.banner-para{
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.banner-image{
+    width: 350px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #E55473;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #E55473;
+    transition: all .3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: none;
+    color: black;
+}
+
+
+#around{
+    width: 75%;
+    margin: 70px auto;
+    
+}
+.flower-card img{
+    width: 160px;
+    height: 200px;
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+}
+.card-image-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 40px 30px 0px 30px;
+}
+.card-image-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 40px 30px 30px 30px;
+    height: 173px !important;
+}
+.card-image-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 40px 30px 0px 30px;
+}
+.flower-card{
+    width: 250px;
+    height: 300px;
+}
+.featured-flower-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 40px; */
+    margin-top: 40px;
+}
+.flower-name{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+.featured-title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.featured-para{
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.support-container{
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+    margin: 40px 35px;
+    /* width: 89%; */
+}
+.support-image{
+    width: 70px;
+    text-align: center;
+}
+.banner-paras{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.same{
+    text-align: center;
+    padding: 30px 10px;
+}
