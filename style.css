@@ -173,12 +173,12 @@
     margin-top: 20px;
 }
 .form>input{
-    padding: 15px;
+    padding: 11px !important;
     border: none;
     border-radius: 8px;
     margin-right: 20px;
     width: 50%;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* latest design ends here  */
@@ -240,3 +240,20 @@
 }
 
 /* contact design ends here  */
+
+/* footer section design  */
+
+.footer-section{
+    background-color: #111010;
+    padding: 100px;
+    text-align: center;
+}
+
+.white{
+    color: white;
+    margin-bottom: 15px;
+}
+.com{
+    color: rgba(255, 255, 255, 0.445);
+}
+/* footer section design ends  */
