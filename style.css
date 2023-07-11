@@ -23,7 +23,7 @@
     font-size: 45px;
     font-weight: 900;
 }
-.banner-para{
+.banner-para{       /*shared selector*/
     font-size: 15px;
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
@@ -33,7 +33,7 @@
     width: 350px;
 }
 
-.btn{
+.btn{           /*shared selector*/
     padding: 10px 20px;
     border: none;
     background-color: #E55473;
@@ -44,7 +44,7 @@
     transition: all .3s;
     cursor: pointer;
 }
-.btn:hover{
+.btn:hover{         /*shared selector*/
     background: none;
     color: black;
 }
@@ -94,12 +94,12 @@
     text-decoration: underline;
     padding-right: 20px;
 }
-.featured-title{
+.featured-title{        /*shared selector*/
     font-size: 32px;
     text-align: center;
     margin-bottom: -10px;
 }
-.featured-para{
+.featured-para{     /*shared selector*/
     text-align: center;
     margin-bottom: 18px;
 }
@@ -145,11 +145,11 @@
     align-items: center;
     padding: 30px;
 }
-.hot-deal-title{
+.hot-deal-title{        /*shared selector*/
     font-size: 26px;
     margin-bottom: 10px;
 }
-.colored{
+.colored{           /*shared selector*/
     color: #E55473;
 }
 .card-images{
@@ -249,7 +249,7 @@
     text-align: center;
 }
 
-.white{
+.white{         /*shared selector*/
     color: white;
     margin-bottom: 15px;
 }
