@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
+/* banner design starts here  */
+
 .banner-container{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -46,6 +48,10 @@
     background: none;
     color: black;
 }
+
+/* banner design ends here  */
+
+/* featured design starts here  */
 
 
 #around{
@@ -98,6 +104,10 @@
     margin-bottom: 18px;
 }
 
+/* featured design ends here  */
+
+/* support design starts from here  */
+
 .support-container{
     background-color: rgba(39, 39, 39, 0.05);
     display: flex;
@@ -120,6 +130,9 @@
     text-align: center;
     padding: 30px 10px;
 }
+/* support design ends here  */
+
+/* hot deal section design starts from here  */
 
 .hot-deal-image{
     width: 200px;
@@ -143,6 +156,10 @@
     width: 220px;
 }
 
+/* hot deal design ends here  */
+
+/* latest section design starts from here  */
+
 .latest-deal-section{
     padding: 80px;
     background-image: url("flower-asset/Rectangle\ 9.png");
@@ -163,9 +180,15 @@
     width: 50%;
     font-size: 14px;
 }
+
+/* latest design ends here  */
+
+/* contact section design starts from here  */
+
+
 .contact-section{
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
 }
 .contact-section-container{
     display: flex;
@@ -215,3 +238,5 @@
 .center{
     text-align: center;
 }
+
+/* contact design ends here  */
